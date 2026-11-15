@@ -19,7 +19,7 @@ RAIZ = Path(__file__).resolve().parent
 CONFIG = json.loads((RAIZ / "config.json").read_text(encoding="utf-8"))
 EPISODIOS = RAIZ / "episodios"
 INDICE = RAIZ / "episodios.json"
-MAX_EPISODIOS = 30
+MAX_EPISODIOS = 1  # solo el episodio del día: Podcasts siempre lo reproduce desde el inicio
 
 
 def trozos(texto: str, maximo: int = 3800) -> list:

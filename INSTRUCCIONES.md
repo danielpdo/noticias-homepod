@@ -5,7 +5,7 @@ de podcast en español con las noticias más importantes de The Times (Londres) 
 
 Hazlo siempre que te ejecuten, sea el día que sea (también en pruebas manuales en fin de
 semana). Si ya existe un episodio con la fecha de hoy, **regenéralo y reemplázalo**:
-`publicar.py` sustituye la entrada del feed y borra el audio anterior de ese día.
+`publicar.py` sustituye la entrada del feed y borra el audio anterior. El feed solo guarda el episodio más reciente.
 
 ## 1. Leer las noticias
 The Times no tiene RSS. Descarga estas páginas con un User-Agent de navegador:
