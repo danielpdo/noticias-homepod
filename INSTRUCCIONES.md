@@ -8,14 +8,15 @@ semana). Si ya existe un episodio con la fecha de hoy, **regenéralo y reempláz
 `publicar.py` sustituye la entrada del feed y borra el audio anterior. El feed solo guarda el episodio más reciente.
 
 ## 1. Leer las noticias
-The Times no tiene RSS. Descarga estas páginas con un User-Agent de navegador:
-- https://www.thetimes.com/
-- https://www.thetimes.com/world
-- https://www.thetimes.com/business-money
-- https://www.thetimes.com/uk
+Ejecuta `python3 titulares.py`. Lista los titulares de The Times de las últimas ~24 horas,
+por sección, sacados del RSS público de Google News, con su hora de publicación.
 
-Extrae los titulares (en el HTML aparecen como `"headline":"..."`). Si una página falla o
-devuelve un muro de pago o un bloqueo, sigue con las demás.
+**No descargues thetimes.com directamente.** Muestra una verificación anti-bot a los
+servidores en la nube, y no hay que intentar saltársela. Si `titulares.py` falla del todo,
+no publiques nada y explica el error.
+
+Ignora entradas que no sean noticias, como nombres de sección ("World News") o páginas
+genéricas.
 
 ## 1b. El tiempo en Londres
 Ejecuta `python3 tiempo.py`. Te da la temperatura a las 8:00, la máxima, la mínima y las horas
@@ -32,7 +33,7 @@ Evita deportes, sociedad, cultura y columnas de opinión, salvo que sean la gran
 ## 3. Escribir el guion
 - Español natural, para escuchar, no para leer: frases cortas y transiciones ("Pasamos a economía").
 - Unas 350 a 400 palabras (unos 2,5 minutos).
-- **Usa solo lo que dicen los titulares y subtítulos. No inventes cifras, causas ni detalles.**
+- **Usa solo lo que dicen los titulares. No inventes cifras, causas ni detalles.**
   Si un titular es ambiguo, descríbelo con prudencia.
 - Escribe "The Times" tal cual: la voz de OpenAI pronuncia bien los nombres en inglés.
 - Empieza con "Buenos días. Estas son las noticias más importantes de The Times, este <día de la
