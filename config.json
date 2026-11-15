@@ -1,0 +1,7 @@
+{
+  "titulo": "Noticias The Times",
+  "descripcion": "Resumen diario en español de las noticias más importantes de The Times.",
+  "base_url": "https://danielpdo.github.io/noticias-homepod",
+  "voice_id": "PENDIENTE",
+  "model_id": "eleven_multilingual_v2"
+}

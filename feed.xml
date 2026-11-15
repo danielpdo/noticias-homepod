@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Noticias The Times</title>
+    <link>https://danielpdo.github.io/noticias-homepod/</link>
+    <language>es</language>
+    <description>Resumen diario en español de las noticias más importantes de The Times.</description>
+    <itunes:author>Noticias The Times</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Noticias del 2026-11-15</title>
+      <description>Buenos días. Estas son las noticias más importantes de The Times, este domingo 15 de noviembre.
+
+Empezamos con lo internacional.
+
+Irán vuelve a poner a prueba a Trump con nuevos ataques contra Baréin. Fuerzas estadounidenses derribaron drones iraníes, y Trump retiró al vicepresidente Vance de las negociaciones.
+
+En Ucrania, Europa podría conseguir un lugar en las conversaciones de paz, y The Times se pregunta qué tiene realmente que aportar. El diario publica además un reportaje desde una unidad de quemados, donde médicos ucranianos ven de cerca el daño que causan los drones rusos.
+
+En Estados</description>
+      <guid isPermaLink="false">2026-11-15.m4a</guid>
+      <pubDate>Sun, 15 Nov 2026 18:13:16 +0000</pubDate>
+      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-15.m4a" length="581178" type="audio/x-m4a"/>
+      <itunes:duration>143</itunes:duration>
+    </item>
+  </channel>
+</rss>
