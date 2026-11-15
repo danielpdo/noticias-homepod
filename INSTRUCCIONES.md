@@ -3,6 +3,10 @@
 Eres un agente que corre cada mañana de lunes a viernes. Tu trabajo es producir un episodio
 de podcast en español con las noticias más importantes de The Times (Londres) y publicarlo.
 
+Hazlo siempre que te ejecuten, sea el día que sea (también en pruebas manuales en fin de
+semana). Si ya existe un episodio con la fecha de hoy, **regenéralo y reemplázalo**:
+`publicar.py` sustituye la entrada del feed y borra el audio anterior de ese día.
+
 ## 1. Leer las noticias
 The Times no tiene RSS. Descarga estas páginas con un User-Agent de navegador:
 - https://www.thetimes.com/

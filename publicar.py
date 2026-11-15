@@ -112,6 +112,9 @@ def main():
             destino = EPISODIOS / f"{fecha}.mp3"
             tts_openai(texto, destino)
         primera = next((l for l in texto.splitlines() if l.strip()), "")
+        for previo in [e for e in indice if e["fecha"] == fecha]:
+            if previo["archivo"] != destino.name:
+                (EPISODIOS / previo["archivo"]).unlink(missing_ok=True)
         indice = [e for e in indice if e["fecha"] != fecha]
         indice.append({
             "fecha": fecha,
