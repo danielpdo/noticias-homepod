@@ -13,6 +13,10 @@ The Times no tiene RSS. Descarga estas páginas con un User-Agent de navegador:
 Extrae los titulares (en el HTML aparecen como `"headline":"..."`). Si una página falla o
 devuelve un muro de pago o un bloqueo, sigue con las demás.
 
+## 1b. El tiempo en Londres
+Ejecuta `python3 tiempo.py`. Te da la temperatura a las 8:00, la máxima, la mínima y las horas
+con lluvia probable. Si falla, omite el bloque del tiempo y sigue.
+
 ## 2. Elegir las noticias
 Unas 10 noticias, en este orden de prioridad:
 1. Lo más importante de la portada.
@@ -29,6 +33,10 @@ Evita deportes, sociedad, cultura y columnas de opinión, salvo que sean la gran
 - Escribe "The Times" tal cual: la voz de ElevenLabs pronuncia bien los nombres en inglés.
 - Empieza con "Buenos días. Estas son las noticias más importantes de The Times, este <día de la
   semana> <día> de <mes>." y termina con una despedida corta.
+- Justo después del saludo, el tiempo en Londres en dos o tres frases: temperatura ahora,
+  máxima y mínima, y si va a llover y a qué horas ("Se espera lluvia entre las once y las
+  cinco de la tarde, así que lleva paraguas"). Escribe las horas en palabras, en formato de
+  12 horas ("las cinco de la tarde"). Si no se espera lluvia, dilo.
 - Si no hay nada de Latinoamérica, dilo en una frase.
 - No incluyas el nombre de nadie en el saludo: el feed es público.
 
