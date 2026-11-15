@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Convierte un guion en audio con ElevenLabs y actualiza el feed del podcast.
+"""Convierte un guion en audio con OpenAI y actualiza el feed del podcast.
 
 Uso:
-  python3 publicar.py guiones/2026-11-16.txt            # genera MP3 con ElevenLabs
+  python3 publicar.py guiones/2026-11-16.txt            # genera MP3 con OpenAI
   python3 publicar.py guiones/X.txt --audio episodios/X.m4a   # usa un audio ya hecho
   python3 publicar.py --solo-feed                        # solo regenera feed.xml
 
-Necesita la variable de entorno ELEVENLABS_API_KEY (salvo con --audio / --solo-feed).
+Necesita la variable de entorno OPENAI_API_KEY (salvo con --audio / --solo-feed).
 Solo usa la biblioteca estándar de Python.
 """
 import argparse, json, os, sys, urllib.request, urllib.error
@@ -22,25 +22,42 @@ INDICE = RAIZ / "episodios.json"
 MAX_EPISODIOS = 30
 
 
-def tts_elevenlabs(texto: str, destino: Path) -> None:
-    key = os.environ.get("ELEVENLABS_API_KEY")
+def trozos(texto: str, maximo: int = 3800) -> list:
+    """Divide por párrafos para no pasar el límite de 4096 caracteres de la API."""
+    partes, actual = [], ""
+    for parrafo in texto.split("\n\n"):
+        if actual and len(actual) + len(parrafo) + 2 > maximo:
+            partes.append(actual); actual = parrafo
+        else:
+            actual = f"{actual}\n\n{parrafo}" if actual else parrafo
+    if actual:
+        partes.append(actual)
+    return partes
+
+
+def tts_openai(texto: str, destino: Path) -> None:
+    key = os.environ.get("OPENAI_API_KEY")
     if not key:
-        sys.exit("Falta ELEVENLABS_API_KEY en el entorno.")
-    url = (f"https://api.elevenlabs.io/v1/text-to-speech/{CONFIG['voice_id']}"
-           f"?output_format=mp3_44100_128")
-    cuerpo = json.dumps({
-        "text": texto,
-        "model_id": CONFIG.get("model_id", "eleven_multilingual_v2"),
-        "language_code": "es",
-        "voice_settings": {"stability": 0.5, "similarity_boost": 0.75},
-    }).encode()
-    req = urllib.request.Request(url, data=cuerpo, method="POST", headers={
-        "xi-api-key": key, "Content-Type": "application/json", "Accept": "audio/mpeg"})
-    try:
-        with urllib.request.urlopen(req, timeout=180) as r:
-            destino.write_bytes(r.read())
-    except urllib.error.HTTPError as e:
-        sys.exit(f"ElevenLabs respondió {e.code}: {e.read().decode(errors='ignore')[:500]}")
+        sys.exit("Falta OPENAI_API_KEY en el entorno.")
+    audio = b""
+    for parte in trozos(texto):
+        cuerpo = json.dumps({
+            "model": CONFIG["model"],
+            "voice": CONFIG["voice"],
+            "input": parte,
+            "instructions": CONFIG["instrucciones_voz"],
+            "response_format": "mp3",
+        }).encode()
+        req = urllib.request.Request("https://api.openai.com/v1/audio/speech", data=cuerpo,
+                                     method="POST", headers={
+                                         "Authorization": f"Bearer {key}",
+                                         "Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=300) as r:
+                audio += r.read()
+        except urllib.error.HTTPError as e:
+            sys.exit(f"OpenAI respondió {e.code}: {e.read().decode(errors='ignore')[:500]}")
+    destino.write_bytes(audio)
 
 
 def generar_feed(indice: list) -> None:
@@ -78,7 +95,7 @@ def generar_feed(indice: list) -> None:
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("guion", nargs="?")
-    p.add_argument("--audio", help="audio ya generado (omite ElevenLabs)")
+    p.add_argument("--audio", help="audio ya generado (omite OpenAI)")
     p.add_argument("--solo-feed", action="store_true")
     a = p.parse_args()
 
@@ -93,7 +110,7 @@ def main():
             destino = Path(a.audio)
         else:
             destino = EPISODIOS / f"{fecha}.mp3"
-            tts_elevenlabs(texto, destino)
+            tts_openai(texto, destino)
         primera = next((l for l in texto.splitlines() if l.strip()), "")
         indice = [e for e in indice if e["fecha"] != fecha]
         indice.append({

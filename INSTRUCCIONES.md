@@ -30,7 +30,7 @@ Evita deportes, sociedad, cultura y columnas de opinión, salvo que sean la gran
 - Unas 350 a 400 palabras (unos 2,5 minutos).
 - **Usa solo lo que dicen los titulares y subtítulos. No inventes cifras, causas ni detalles.**
   Si un titular es ambiguo, descríbelo con prudencia.
-- Escribe "The Times" tal cual: la voz de ElevenLabs pronuncia bien los nombres en inglés.
+- Escribe "The Times" tal cual: la voz de OpenAI pronuncia bien los nombres en inglés.
 - Empieza con "Buenos días. Estas son las noticias más importantes de The Times, este <día de la
   semana> <día> de <mes>." y termina con una despedida corta.
 - Justo después del saludo, el tiempo en Londres en dos o tres frases: temperatura ahora,
@@ -46,7 +46,7 @@ Guarda el guion en `guiones/AAAA-MM-DD.txt` (fecha de hoy, hora de Londres).
 ```
 python3 publicar.py guiones/AAAA-MM-DD.txt
 ```
-Necesita `ELEVENLABS_API_KEY` en el entorno. Si falla, no publiques nada a medias: informa del
+Necesita `OPENAI_API_KEY` en el entorno. Si falla, no publiques nada a medias: informa del
 error tal cual en tu resumen final.
 
 ## 5. Publicar
