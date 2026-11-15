@@ -10,19 +10,17 @@
     <itunes:block>Yes</itunes:block>
     <item>
       <title>Noticias del 2026-11-15</title>
-      <description>Buenos días. Estas son las noticias más importantes de The Times, este domingo 15 de noviembre.
+      <description>Buenos días. Estas son las noticias más importantes de The Times, este domingo quince de noviembre.
 
-Empezamos con lo internacional.
+En Londres, hace ocho grados a las ocho de la mañana. La máxima será de ocho grados y la mínima de siete. Se espera algo de lluvia entre las ocho y las nueve de la noche, así que lleva paraguas si sales por la tarde.
 
-Irán vuelve a poner a prueba a Trump con nuevos ataques contra Baréin. Fuerzas estadounidenses derribaron drones iraníes, y Trump retiró al vicepresidente Vance de las negociaciones.
+Empezamos con la portada. El príncipe Guillermo y Kate añaden una reunión sorpresa con Narendra Modi a su viaje a la India. Kate se unirá al príncipe esta semana en ese viaje.
 
-En Ucrania, Europa podría conseguir un lugar en las conversaciones de paz, y The Times se pregunta qué tiene realmente que aportar. El diario publica además un reportaje desde una unidad de quemados, donde médicos ucranianos ven de cerca el daño que causan los drones rusos.
-
-En Estados</description>
-      <guid isPermaLink="false">2026-11-15.m4a</guid>
-      <pubDate>Sun, 15 Nov 2026 18:13:16 +0000</pubDate>
-      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-15.m4a" length="581178" type="audio/x-m4a"/>
-      <itunes:duration>143</itunes:duration>
+En política británica, Andy Burnham se enfrenta a una rebelión laborista contra el yacimiento petrolero </description>
+      <guid isPermaLink="false">2026-11-15.mp3</guid>
+      <pubDate>Sun, 15 Nov 2026 19:46:02 +0000</pubDate>
+      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-15.mp3" length="2635392" type="audio/mpeg"/>
+      <itunes:duration>164</itunes:duration>
     </item>
   </channel>
 </rss>
