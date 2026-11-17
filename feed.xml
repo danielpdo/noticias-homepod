@@ -9,18 +9,18 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
-      <title>Noticias del 2026-11-16</title>
-      <description>Buenos días. Estas son las noticias más importantes de The Times, este lunes 16 de noviembre.
+      <title>Noticias del 2026-11-17</title>
+      <description>Buenos días. Estas son las noticias más importantes de The Times, este martes diecisiete de noviembre.
 
-Primero, el tiempo en Londres. Ahora mismo hace unos tres grados. Se espera una máxima de siete y una mínima de tres. Podría llover entre las ocho y las once de la noche, así que si sales tarde, lleva paraguas.
+Primero, el tiempo en Londres. Ahora mismo hay trece grados. La máxima será de trece y la mínima de nueve. Se espera algo de lluvia entre las siete y las nueve de la mañana, así que si sales temprano, lleva paraguas.
 
-Empezamos por la portada. Según The Times, el príncipe Guillermo y Catalina se muestran encantados de volver juntos a la India.
+Empezamos por la portada. The Times informa de que el Reino Unido se enfrentaría a lo que llama una penalización Farage si se retira del acuerdo de reinicio de relaciones con la Unión Europea tras el Brexit.
 
-En Reino Unido, Andy Burnham dice que el país perdió más de lo que ganó al salir de la Unión Europea. Además, se plantea que la edad de consentimiento podría fijars</description>
-      <guid isPermaLink="false">2026-11-16.mp3</guid>
-      <pubDate>Mon, 16 Nov 2026 06:05:19 +0000</pubDate>
-      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-16.mp3" length="1891968" type="audio/mpeg"/>
-      <itunes:duration>108</itunes:duration>
+Sobre Ucrania, Rusia insiste en que los europeos no se sumarán a las </description>
+      <guid isPermaLink="false">2026-11-17.mp3</guid>
+      <pubDate>Tue, 17 Nov 2026 06:04:28 +0000</pubDate>
+      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-17.mp3" length="2231424" type="audio/mpeg"/>
+      <itunes:duration>137</itunes:duration>
     </item>
   </channel>
 </rss>
