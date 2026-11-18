@@ -9,18 +9,20 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
-      <title>Noticias del 2026-11-17</title>
-      <description>Buenos días. Estas son las noticias más importantes de The Times, este martes diecisiete de noviembre.
+      <title>Noticias del 2026-11-18</title>
+      <description>Buenos días. Estas son las noticias más importantes de The Times, este miércoles dieciocho de noviembre.
 
-Primero, el tiempo en Londres. Ahora mismo hay trece grados. La máxima será de trece y la mínima de nueve. Se espera algo de lluvia entre las siete y las nueve de la mañana, así que si sales temprano, lleva paraguas.
+Primero, el tiempo en Londres. A las ocho de la mañana hay nueve grados. La máxima será de doce y la mínima de ocho. Se espera lluvia entre las nueve de la noche y la medianoche, así que si sales de noche, lleva paraguas.
 
-Empezamos por la portada. The Times informa de que el Reino Unido se enfrentaría a lo que llama una penalización Farage si se retira del acuerdo de reinicio de relaciones con la Unión Europea tras el Brexit.
+Empezamos por la portada. Un ciberataque ha afectado a la BBC, Zoom e Ikea, con ciento setenta y ocho sitios web hackeados, según The Times.
 
-Sobre Ucrania, Rusia insiste en que los europeos no se sumarán a las </description>
-      <guid isPermaLink="false">2026-11-17.mp3</guid>
-      <pubDate>Tue, 17 Nov 2026 06:04:28 +0000</pubDate>
-      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-17.mp3" length="2231424" type="audio/mpeg"/>
-      <itunes:duration>137</itunes:duration>
+Sobre Ucrania, un ataque ucraniano ha colapsado parcialmente el puente clave de Putin hacia Crimea.
+
+En el Reino Unido, Andy Burn</description>
+      <guid isPermaLink="false">2026-11-18.mp3</guid>
+      <pubDate>Wed, 18 Nov 2026 06:05:02 +0000</pubDate>
+      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-18.mp3" length="2346624" type="audio/mpeg"/>
+      <itunes:duration>139</itunes:duration>
     </item>
   </channel>
 </rss>
