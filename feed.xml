@@ -9,20 +9,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
-      <title>Noticias del 2026-11-18</title>
-      <description>Buenos días. Estas son las noticias más importantes de The Times, este miércoles dieciocho de noviembre.
+      <title>Noticias del 2026-11-19</title>
+      <description>Buenos días. Estas son las noticias más importantes de The Times, este jueves 19 de noviembre.
 
-Primero, el tiempo en Londres. A las ocho de la mañana hay nueve grados. La máxima será de doce y la mínima de ocho. Se espera lluvia entre las nueve de la noche y la medianoche, así que si sales de noche, lleva paraguas.
+Primero, el tiempo en Londres. Ahora mismo hay cinco grados. Se espera una máxima de diez y una mínima de cinco. No se espera lluvia, así que hoy no hace falta paraguas.
 
-Empezamos por la portada. Un ciberataque ha afectado a la BBC, Zoom e Ikea, con ciento setenta y ocho sitios web hackeados, según The Times.
-
-Sobre Ucrania, un ataque ucraniano ha colapsado parcialmente el puente clave de Putin hacia Crimea.
-
-En el Reino Unido, Andy Burn</description>
-      <guid isPermaLink="false">2026-11-18.mp3</guid>
-      <pubDate>Wed, 18 Nov 2026 06:05:02 +0000</pubDate>
-      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-18.mp3" length="2346624" type="audio/mpeg"/>
-      <itunes:duration>139</itunes:duration>
+Empezamos por la portada. The Times informa de que las facturas de energía en el Reino Unido subirán más de cuatrocientas libras al año a partir de enero. Además, la inflación en el Reino Unido sube hasta el 3,6 por ciento, el nivel más alto en un año. En el plano político, el titular de Energía es acusado de animar a los rebeldes </description>
+      <guid isPermaLink="false">2026-11-19.mp3</guid>
+      <pubDate>Thu, 19 Nov 2026 06:04:45 +0000</pubDate>
+      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-19.mp3" length="2280192" type="audio/mpeg"/>
+      <itunes:duration>140</itunes:duration>
     </item>
   </channel>
 </rss>
