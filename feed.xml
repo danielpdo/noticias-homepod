@@ -9,16 +9,18 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
-      <title>Noticias del 2026-11-19</title>
-      <description>Buenos días. Estas son las noticias más importantes de The Times, este jueves 19 de noviembre.
+      <title>Noticias del 2026-11-20</title>
+      <description>Buenos días. Estas son las noticias más importantes de The Times, este viernes 20 de noviembre.
 
-Primero, el tiempo en Londres. Ahora mismo hay cinco grados. Se espera una máxima de diez y una mínima de cinco. No se espera lluvia, así que hoy no hace falta paraguas.
+Primero, el tiempo en Londres. Ahora mismo hay cinco grados. Se espera una máxima de nueve y una mínima de cuatro. No se espera lluvia, así que hoy no hace falta paraguas.
 
-Empezamos por la portada. The Times informa de que las facturas de energía en el Reino Unido subirán más de cuatrocientas libras al año a partir de enero. Además, la inflación en el Reino Unido sube hasta el 3,6 por ciento, el nivel más alto en un año. En el plano político, el titular de Energía es acusado de animar a los rebeldes </description>
-      <guid isPermaLink="false">2026-11-19.mp3</guid>
-      <pubDate>Thu, 19 Nov 2026 06:04:45 +0000</pubDate>
-      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-19.mp3" length="2280192" type="audio/mpeg"/>
-      <itunes:duration>140</itunes:duration>
+Empezamos por la portada. En el juicio de Joanne Young, cuatro hombres han sido declarados culpables de agresión sexual. The Times publica también su declaración completa, en la que dice que el abuso le ha costado la vida tal como la conocía.
+
+En política, Andy Burnham acepta un plan de movilidad juvenil con la Unión Europea que</description>
+      <guid isPermaLink="false">2026-11-20.mp3</guid>
+      <pubDate>Fri, 20 Nov 2026 06:04:25 +0000</pubDate>
+      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-20.mp3" length="2131968" type="audio/mpeg"/>
+      <itunes:duration>133</itunes:duration>
     </item>
   </channel>
 </rss>
