@@ -9,18 +9,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
-      <title>Noticias del 2026-11-23</title>
-      <description>Buenos días. Estas son las noticias más importantes de The Times, este lunes 23 de noviembre.
+      <title>Noticias del 2026-11-24</title>
+      <description>Buenos días. Estas son las noticias más importantes de The Times, este martes 24 de noviembre.
 
-Primero, el tiempo en Londres. Ahora mismo hay tres grados. Se espera una máxima de seis y una mínima de uno. No se espera lluvia, así que hoy no hace falta paraguas, pero sí abrigo.
+Primero, el tiempo en Londres. Ahora mismo hay cuatro grados. Se espera una máxima de siete y una mínima de dos. No se espera lluvia, así que hoy no hace falta paraguas, pero sí abrigo.
 
-Empezamos por la portada. Según The Times, un buque de guerra ruso ha sido hundido en Libia por un dron que se atribuye a Ucrania. Es una sospecha, no una confirmación.
-
-En política británica, los minoristas dicen que el acuerdo de Andy Burnham con la Unión Europea no bajará el precio de los alimentos. Otro titular reco</description>
-      <guid isPermaLink="false">2026-11-23.mp3</guid>
-      <pubDate>Mon, 23 Nov 2026 06:04:13 +0000</pubDate>
-      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-23.mp3" length="2517120" type="audio/mpeg"/>
-      <itunes:duration>155</itunes:duration>
+Empezamos por la portada. The Times asegura que Andrew Mountbatten-Windsor recibió de una heredera turca un pago de setecientas cincuenta mil libras, que el titular califica de soborno. Por otro lado, el Reino Unido ha sido confirmado como sede del Mundial femenino de dos mil treinta y cinco. Y el jefe de Capita dej</description>
+      <guid isPermaLink="false">2026-11-24.mp3</guid>
+      <pubDate>Tue, 24 Nov 2026 06:04:08 +0000</pubDate>
+      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-24.mp3" length="2410368" type="audio/mpeg"/>
+      <itunes:duration>149</itunes:duration>
     </item>
   </channel>
 </rss>
