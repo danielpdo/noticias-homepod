@@ -22,6 +22,11 @@ genéricas.
 Ejecuta `python3 tiempo.py`. Te da la temperatura a las 8:00, la máxima, la mínima y las horas
 con lluvia probable. Si falla, omite el bloque del tiempo y sigue.
 
+## 1c. Tipo de cambio
+Ejecuta `python3 cambio.py`. Te da cuántos dólares y cuántos euros vale una libra, y si sube
+o baja frente al día anterior (datos de referencia del Banco Central Europeo). Si falla, omite
+el bloque y sigue.
+
 ## 2. Elegir las noticias
 Unas 10 noticias, en este orden de prioridad:
 1. Lo más importante de la portada.
@@ -42,6 +47,10 @@ Evita deportes, sociedad, cultura y columnas de opinión, salvo que sean la gran
   máxima y mínima, y si va a llover y a qué horas ("Se espera lluvia entre las once y las
   cinco de la tarde, así que lleva paraguas"). Escribe las horas en palabras, en formato de
   12 horas ("las cinco de la tarde"). Si no se espera lluvia, dilo.
+- Justo después del tiempo, el tipo de cambio en una o dos frases, con dos decimales y en
+  palabras fáciles de escuchar: "La libra está a un dólar con treinta y un centavos y a un
+  euro con diecinueve céntimos. Frente a ayer, baja un poco ante el dólar y se mantiene
+  ante el euro." No leas más de dos decimales.
 - Si no hay nada de Latinoamérica, dilo en una frase.
 - No incluyas el nombre de nadie en el saludo: el feed es público.
 
