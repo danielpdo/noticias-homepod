@@ -10,15 +10,17 @@
     <itunes:block>Yes</itunes:block>
     <item>
       <title>Noticias del 2026-11-25</title>
-      <description>Buenos días. Estas son las noticias más importantes de The Times, este miércoles 25 de noviembre.
+      <description>Buenos días. Estas son las noticias más importantes de The Times, este miércoles veinticinco de noviembre.
 
-Primero, el tiempo en Londres. Ahora mismo hay tres grados. Se espera una máxima de seis y una mínima de tres. No se espera lluvia en todo el día, así que no hace falta paraguas, pero sí abrigo.
+Primero, el tiempo en Londres. Ahora mismo hacen seis grados, y se espera que la máxima y la mínima del día también sean de seis grados. No se espera lluvia, así que hoy no hace falta paraguas.
 
-Empezamos por la portada. El MI5 advierte a las empresas de defensa de que se preparen para un posible sabotaje ruso. Por otro lado, Andy Burnham recibe al príncipe Guillermo en el número diez por primera vez. Y dos personas han sido detenidas por un presunto allanamiento en la casa del príncipe Guillerm</description>
+El tipo de cambio: la libra está a un dólar con treinta y un centavos y a un euro con diecinueve céntimos. Frente a ayer, baja un poco ante el dólar y se mantiene ante el euro.
+
+Empezamos con la portada. Según The Times, la factura de la energía en el Reino Unido subirá cuatrocientas cuarenta y t</description>
       <guid isPermaLink="false">2026-11-25.mp3</guid>
-      <pubDate>Wed, 25 Nov 2026 06:04:01 +0000</pubDate>
-      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-25.mp3" length="2008320" type="audio/mpeg"/>
-      <itunes:duration>120</itunes:duration>
+      <pubDate>Wed, 25 Nov 2026 22:27:27 +0000</pubDate>
+      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-25.mp3" length="2150400" type="audio/mpeg"/>
+      <itunes:duration>137</itunes:duration>
     </item>
   </channel>
 </rss>
