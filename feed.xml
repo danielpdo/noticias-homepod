@@ -9,18 +9,18 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
-      <title>Noticias del 2026-11-26</title>
-      <description>Buenos días. Estas son las noticias más importantes de The Times, este jueves veintiséis de noviembre.
+      <title>Noticias del 2026-11-27</title>
+      <description>Buenos días. Estas son las noticias más importantes de The Times, este viernes veintisiete de noviembre.
 
-Primero, el tiempo en Londres. Ahora mismo hacen cuatro grados. La máxima será de cinco y la mínima de uno. No se espera lluvia, así que hoy no hace falta paraguas, pero sí abrigo.
+Primero, el tiempo en Londres. Ahora mismo hacen dos grados. La máxima será de cinco y la mínima de dos. Se espera algo de lluvia entre las cinco y las siete de la tarde, así que lleva paraguas, y también abrigo.
 
-El tipo de cambio: la libra está a un dólar con treinta y un centavos y a un euro con diecinueve céntimos. Frente a ayer, baja un poco ante el dólar y se mantiene ante el euro.
+El tipo de cambio: la libra está a un dólar con treinta y un centavos y a un euro con diecinueve céntimos. Frente a ayer, sube un poco ante el dólar y se mantiene ante el euro.
 
-Empezamos con la portada. Según The Times, el Ministerio de Defensa ha dicho a cien mil reservistas que estén preparados para una posibl</description>
-      <guid isPermaLink="false">2026-11-26.mp3</guid>
-      <pubDate>Thu, 26 Nov 2026 06:03:56 +0000</pubDate>
-      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-26.mp3" length="2388864" type="audio/mpeg"/>
-      <itunes:duration>156</itunes:duration>
+Empezamos con la portada. Según The Times, el Ministerio de Defensa ha dicho a cien mil reservistas qu</description>
+      <guid isPermaLink="false">2026-11-27.mp3</guid>
+      <pubDate>Fri, 27 Nov 2026 06:04:26 +0000</pubDate>
+      <enclosure url="https://danielpdo.github.io/noticias-homepod/episodios/2026-11-27.mp3" length="2760960" type="audio/mpeg"/>
+      <itunes:duration>161</itunes:duration>
     </item>
   </channel>
 </rss>
